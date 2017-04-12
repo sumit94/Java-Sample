@@ -1,0 +1,16 @@
+import java.io.*;
+class StringReverse{
+public static void main(String[] args)throws IOException
+{
+String s="Sumit";
+for(int i=s.length()-1;i>=0;i--)
+{
+	System.out.print(s.charAt(i));
+	
+}System.out.println();
+	
+
+}
+
+
+}
